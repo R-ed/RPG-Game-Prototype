@@ -1,8 +1,8 @@
 # RPG-Game-Prototype
 
-Contributers:
-Nathan Sutandar
-Carlito Llena
+Contributers: <br />
+Nathan Sutandar <br />
+Carlito Llena <br />
 
-About Repository:
+About Repository: <br />
 This repository is strictly dedicated to the working prototype stage of the RPG Game that the contributers (see above) are making.
