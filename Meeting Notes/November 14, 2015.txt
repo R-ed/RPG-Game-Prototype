@@ -1,0 +1,42 @@
+-If Magic were to be implemented, there were 2 scenarios too mitigate a Mage's OP-ness.
+   -When a mage levels up, the mage gets assigned a spell to cast.  The player gets too allocate 1 point too a spell, this makes a mage be able to cast a spell one more time.
+   -Instead of a mana system, a player
+
+-Physical characters, stamina system.  Similar to dark souls.
+
+-Apothecary class, use special items in battle.
+
+-Oracle class, purpose is to buff/debuff enemies/allies.
+
+-With regards to firearms, 3 classes: pistol, arquebus, handgun.
+	-How would bullets play?
+
+-Make companions be in different countries, hopefully this will make use of the lore/world-building concepts that Nathan and Kieran used.
+
+-A noble companion (mage), in the slums looking for a book.
+
+-Have mandatory companions and optional companions.
+
+-Grinding, have a sparing system instead of decimating hundreds of criminals thieves.  How do we make it non boring?
+	-To make it not boring, make a gambling system, where the player and AI can bet money.
+	-The player can spar with different types of opponents (thief, brute, etc.).  You battle tougher enemies, and if you beat the last boss, you get a skill.
+	-Make arenas
+	-Horse carriage/chariot racing.
+	-Make sure that the player can't grind for too long (the player can't enter the arena after winning too many times).
+	-Dueling as a side quest?
+
+-companions can die permanently.
+
+-Save system, have a book to "log" your adventures.  Story wise, the log is there for the thieves to recognize what other thieves have done.*
+	-For each save, there should be blurbs dictating the major decisions that the player has done.
+	-Should have some comic relief, when non thief companions/NPC touches or investigates MC's diary.
+	-For each save, the jorunal should indicate what the player needs to do next.
+
+-Make MC train any companions or have MC train only one character.
+	-Too make things not to OP, have taught skills to be less potent than the Mentor.
+
+-Menu UI, to make things simple, have characters surround huddle around. OR the player can do a character switch.*
+	-Check equipment, check spells, talk to them.
+
+
+*Implement it into a prototype!
