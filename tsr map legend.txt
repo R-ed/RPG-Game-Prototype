@@ -1,0 +1,36 @@
+Ellis map:
+That purple circle is, of course, the city of Ellis itself.
+
+Cultures map:
+Pale purple = Native Eldathi cultures dominant
+Blue = Thiarnari-descended cultures dominant
+Green = Antae-descended cultures dominant
+Orange = Umari culture dominant
+Gray = Thiareike or Thiareike-descended culture dominant
+Pink = Ingmarian culture dominant
+
+Religion map:
+Purple = Church of Errai, Southern Rite
+White = Church of Errai, Northern Rite
+Orange = Umari polytheism
+Gray = Thiareike polytheism
+Black = Cycle of Storms
+
+Factions map:
+Purple = Ellisian Empire
+Gold = Umari Empire
+White = Holy See
+Pink = Republic of Zena
+Orange = Republic of Brixia
+Gray = Thurinian Empire
+Black = Kingdom of Duskenfall
+Red = Dual Monarchy of Brel-Meravia
+Dark blue = Kingdom of Morcarragh
+Lilac = The 'Broken Bowl': Various independent Low Eldathi city-states & petty principalities
+Light green = Kingdom of Sylve
+Salmon = Kingdom of Slezan
+Yellow = Kingdom of Dulebya
+Blue = High Kingdom of Dolya
+Dark green = Kingdom of Grom
+Light gray = Thiareike clans
+Pink = Kingdom of Ingmaria (technically part of Thurin)
