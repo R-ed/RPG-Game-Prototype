@@ -2,11 +2,11 @@ Ellis map:
 That purple circle is, of course, the city of Ellis itself.
 
 Cultures map:
-Pale purple = Native Eldathi cultures dominant
+Purple = Native Eldathi cultures dominant
 Blue = Thiarnari-descended cultures dominant
 Green = Antae-descended cultures dominant
 Orange = Umari culture dominant
-Gray = Thiareike or Thiareike-descended culture dominant
+Gray = Thiareike culture dominant
 Pink = Ingmarian culture dominant
 
 Religion map:
@@ -14,24 +14,38 @@ Purple = Church of Errai, Southern Rite
 White = Church of Errai, Northern Rite
 Orange = Umari polytheism
 Gray = Thiareike polytheism
-Dark blue = Cycle of Storms
+Dark green = Cycle of Storms
 
 Factions map:
 Purple = Ellisian Empire
 Orange = Umari Empire
 White = Holy See
-Light gray = Republic of Zena
-Beige = Republic of Brixia
+Sky blue = Republic of Zena
+Maroon = Republic of Brixia
 Gray = Thurinian Empire
 Black = Kingdom of Solamut
-Red = Brel (dominant part of the Dual Monarchy of Brel-Meravia)
-Blue = Meravia (part of the Dual Monarchy of Brel-Meravia)
-Pale blue = Kingdom of Morcarragh
-Lilac = The 'Broken Bowl': Various independent Low Eldathi city-states & petty principalities
-Green = Kingdom of Sylve
-Magenta = Kingdom of Slezan
-Yellow-green = Kingdom of Dulebya
-Dark blue = High Kingdom of Dolya
-Dark green = Kingdom of Grom
-Dark brown = Thiareike clans
-Pink = Kingdom of Ingmaria (technically part of Thurin)
+Red = Kingdom of Brel (part of the Dual Monarchy of Brel-Meravia)
+Blue = Kingdom of Meravia (part of the Dual Monarchy of Brel-Meravia)
+Dark blue = Kingdom of Morcarragh
+Light purple = The 'Broken Bowl': Various independent minor Low Eldathi city-states & petty principalities
+Forest green = Kingdom of Sylve
+Salmon = Kingdom of Slezan
+Light green = Kingdom of Dulebya
+Light blue = High Kingdom of Dolya
+Teal = Kingdom of Grom
+Light gray = Thiareike clans
+Pale pink = Kingdom of Ingmaria (part of Thurin)
+
+Terrain map:
+Blue = Tundra (presence of very sparse plant life, normally in the forms of lichens, mosses, and very hardy shrubs, little to no tree cover, cool summer temperatures, frigid winter temperatures, low soil fertility, and low precipitation - compare to the northern reaches of Siberia, Canada, Alaska, and Lappland)
+Dark green = Taiga (presence of coniferous evergreen trees, mild summer temperatures, very cold winter temperatures, and high precipitation - compare to Siberia, the Canadian Shield, or northern Scandinavia)
+Very dark green = Swampland (characterized by the presence of slow-moving or stagnant bodies of water, presence of aquatic vegetation in addition to shrubs and biome-dependent trees, warm to mild summer temperatures, cool to very cold winter temperatures, and high precipitation - compare to the Pripet or Tigris-Euphrates Marshes and Irish or Northern Canadian bogs)
+Light green = Temperate deciduous forest (presence of deciduous broadleaf trees, warm summer temperatures, cold winter temperatures, high soil fertility and high precipitation - compare to eastern North America, Europe, and mainland East Asia)
+Red = Mediterranean (presence of small shrubs and little tree cover, hot summer temperatures, cool winter temperatures, medium to low soil fertility, and medium to low precipitation - compare to the California Coast or the actual Mediterranean Coast)
+Gray = Highlands (characterized by rocky, infertile soil and sparse plant life, especially in high mountains - mountains also tend to create “micro-climates” because they can be obstructive to wind currents and cloud formations)
+Light yellow = Temperate grassland (presence of vast , flat plains of grass (perhaps rolling hills where mountains are present), little tree cover, warm summer temperatures, cold winter temperatures, medium soil fertility, and medium to low precipitation - compare to the Eurasian Steppe or the North American Prairie)
+Gold = Tropical grassland (presence of tall grass and some tree cover (esp. acacia trees), hot summer temperatures, warm winter temperatures, and low precipitation - compare to the African Savannah or Pampas region of Argentina)
+Orange = Desert (little to no vegetation present, extremely high temperatures year round, and low to no precipitation - compare to the Sahara or Arabian deserts)
+Black line = mountain range
+Blue line = river
+Red or orange X = volcano
