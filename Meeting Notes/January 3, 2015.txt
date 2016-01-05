@@ -1,0 +1,12 @@
+Saving Mechanics:
+-4 journal entries (save files)
+-When one of the journal entries is selected, the players can read the current objective, blurbs, and the in-universe date
+ when the entry was written by the Main Character. 
+
+Party Interaction Mechanics:
+-Have it so that initiating this menu UI system would bring up a new screen that would accommodate four characters and also emulate the setting in which the system was initiated. For example, if I 
+   initiate the system in a castle's hallway, then the screen would show a larger area that has sort of murky art that sort of looks like a castle hallway. This would be similar to how battles work in a standard
+   RPG (ours included). When a battle is started, the screen shows an area that looks like the area in which the battle started. This is also flawed because it'd be disorienting, but I think it could be cool.
+
+Proposed Deadline for the Prototype:
+-February 14, 2015
