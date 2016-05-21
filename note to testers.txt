@@ -1,0 +1,1 @@
+To testers: the actual full prototype is in the 'RPG Prototype - dplmcy' folder. You won't need to go through the contents of 'RPG Prototype - combat' and 'RPG Prototype - Stealth', since the former was just a place to test the combat system (worked into 'dplmcy' now) and the latter turned out to be unworkable.
