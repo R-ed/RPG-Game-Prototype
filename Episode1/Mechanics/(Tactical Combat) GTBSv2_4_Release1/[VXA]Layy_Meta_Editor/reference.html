@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Pragma" Content="no-cache">
+	<title>Layy Meta Editor : Reference Document</title>
+	<link type="text/css" rel="stylesheet" href="./Reference/lmeditor.css">
+</head>
+<body>
+
+<h1>Layy Meta Editor : Reference Document</h1>
+
+<table class="links">
+	<tr><td><a href="#1">1. Graphic resources</a></td></tr>
+	<tr><td><a href="#2">2. Creating a new map</a></td></tr>
+	<tr><td><a href="#3">3. Editing maps</a></td></tr>
+	<tr class="subtitle"><td><a href="#31">3.1. Overview</a></td></tr>
+	<tr class="subtitle"><td><a href="#32">3.2. Controlling the camera</a></td></tr>
+	<tr class="subtitle"><td><a href="#33">3.3. Editing heights</a></td></tr>
+	<tr class="subtitle"><td><a href="#34">3.4. Setting textures</a></td></tr>
+	<tr class="subtitle"><td><a href="#35">3.5. Changing the tileset</a></td></tr>
+	<tr><td><a href="#4">4. Saving a map</a></td></tr>
+	<tr><td><a href="#5">5. Loading an existing map</a></td></tr>
+	<tr><td><a href="#6">6. Exporting a map</a></td></tr>
+	<tr><td><a href="#7">7. tilesets configuration</a></td></tr>
+</table>
+
+<h2><a name="1">1. Graphic resources</a></h2>
+<p>Tilesets are PNG files placed in the "\Graphics\Tilesets" directory.
+Each tile is 32px × 32px, and the width of a tileset is fixed at 256px.
+The height must not exceed 512px.</p>
+<p>The first tile (furthest upper left) must be empty, because the tileset will be used as a tileB tileset after being exported in a game project.
+The second and third tiles are respectively the default tiles for ground and walls (they can be changed when creating a new map).</p>
+<p>You can use subsets to draw tiles with patterns larger than 32x32px, autotiles and animated tiles.
+These subsets must have [Sub] in their names and are also placed in the "\Graphics\Tilesets" directory</p>
+<p>Ground :
+<ul>
+	<li>larger patterns : no particular restriction.<br/>
+		width : N tiles (32px)<br/>
+		height : M tiles (32px)<br/>
+		Ex. :<br/>
+		<image src="Reference/[Sub]cobblestone.png"/>
+	</li>
+	<li>autotiles : must contains [A] in their names.<br/>
+	Two formats are possible :
+		<ul>
+			<li>XP style<br/>
+				width : 3 tiles (96px)<br/>
+				height : 4 tiles (128px)<br/>
+				Ex. :<br/>
+				<image src="Reference/[Sub][A]xp_style.png"/>
+			</li>
+			<li>VX/VXA style<br/>
+				width : 2 tiles (64px)<br/>
+				height : 3 tiles (96px)<br/>
+				Ex. :<br/>
+				<image src="Reference/[Sub][A]grass_001.PNG"/>
+			</li>
+		</ul>
+	</li>
+	<li>animated tiles : the patterns are ordered from the left to the right in the subset.<br/>
+	Several formats are allowed :
+		<ul>
+			<li>single animated tile :<br/>
+				width : P tiles (P x 32px)<br/>
+				height : 32px
+			</li>
+			<li>animated larger pattern :<br/>
+				width : P x N tiles (P x 32px)<br/>
+				height : M tiles (32px)
+			</li>
+			<li>animated XP autotile :<br/>
+				width : P x 3 tiles (P x 96px)<br/>
+				height : 4 tiles (128px)
+			</li>
+			<li>animated VX/VXA autotile :<br/>
+				width : P x 2 tiles (P x 64px)<br/>
+				height : 3 tiles (96px)<br/>
+				Ex. :<br/>
+				<image src="Reference/[Sub][A]water_001.PNG"/>
+			</li>
+		</ul>
+	</li>
+</ul>
+</p>
+<p>Walls :
+<ul>
+	<li>larger patterns : limited to one or two tiles in width.<br/>
+		width : 1 tile (32px) or 2 tiles (64px)<br/>
+		height : M tiles (32px)<br/>
+		Ex. :<br/>
+		<image src="Reference/[Sub]wall_rock_001.PNG"/>
+	</li>
+	<li>animated tiles : the patterns are ordered from the left to the right in the subset.<br/>
+	Several formats are allowed :
+		<ul>
+			<li>single animated tile :<br/>
+				width : P tiles (P x 32px)<br/>
+				height : 32px<br/>
+				Ex. :<br/>
+				<image src="Reference/[Sub]waterfall_001.PNG"/>
+			</li>
+			<li>animated larger pattern :<br/>
+				width : P x 1 tile (P x 32px) or P x 2 tile (P x 64px)<br/>
+				height : M tiles (32px)
+			</li>
+		</ul>
+	</li>
+</ul>
+</p>
+
+<h2><a name="2">2. Creating a new map</a></h2>
+
+<p>Click on the the first button at the upper left of the screen (or press [Ctrl+N]) <span class="red">(1)</span></p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/new_map.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> new map button</td></tr>
+		</table>
+	</div>
+</div>
+
+<p>In the window, choose the map dimensions, measured in tiles.
+Map size can range from 17 to 500 tiles horizontally and 13 to 500 tiles vertically.
+Then click on the "Next" button.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/new_dim.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> width input field</td></tr>
+			<tr><td><span class="red">(2)</span> height input field</td></tr>
+			<tr><td><span class="red">(3)</span> validate and go to next window</td></tr>
+		</table>
+	</div>
+</div>
+
+<p>In the next window, select a tileset. You can change the default tiles for ground and walls by clicking on their icons then selecting a tile in the tileset.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/new_tileset.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> selectable tilesets</td></tr>
+			<tr><td><span class="red">(2)</span> selected tileset preview</td></tr>
+			<tr><td><span class="red">(3)</span> click to select default ground texture</td></tr>
+			<tr><td><span class="red">(4)</span> click to select default wall texture</td></tr>
+			<tr><td><span class="red">(5)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+
+<p>Click on the "Create map" button to validate.</p>
+
+
+<h2><a name="3">3. Editing maps</a></h2>
+
+	<h3><a name="31">3.1. Overview</a></h3>
+		<div class="image">
+			<table align="center">
+				<tr><td><image src="Reference/map_edit.png"/></td></tr>
+			</table>
+			<div class="caption">
+				<table align="center">
+					<tr><td><span class="red">(1)</span> cursor (green)</td></tr>
+					<tr><td><span class="red">(2)</span> selected tiles (blue) (only in Heights mode)</td></tr>
+					<tr><td><span class="red">(3)</span> cursor coordinates</td></tr>
+					<tr><td><span class="red">(4)</span> current rotation angle</td></tr>
+					<tr><td><span class="red">(5)</span> select Heights mode</td></tr>
+					<tr><td><span class="red">(6)</span> select Textures mode</td></tr>
+				</table>
+			</div>
+		</div>
+	
+	<h3><a name="32">3.2. Controlling the camera</a></h3>
+		<h4>Map translation :</h4>
+			<p>move the mouse while maintaining [Space]<br/>
+			or<br/>
+			move the mouse while maintaining [Ctrl] + right click<br/>
+			or<br/>
+			use Arrows keys</p>
+		<h4>Map rotation :</h4>
+			<p>move the mouse while maintaining [Alt] + right click<br/>
+			or<br/>
+			use RPG Maker [L]/[R] buttons (RPG Maker configuration - F1)</p>
+	
+	<h3><a name="33">3.3. Editing heights</a></h3>
+		<p>Select a tile by clicking on it, or select a group of tiles by moving the mouse while left clicking.
+		You can add tiles to an existing selection by pressing [Ctrl] during a new selection.</p>
+		<p>The minimal and maximal heights, mesured in pixels, of selected tiles are displayed in the upper right corner of the screen.
+		Adjust these values to set a new height, or move the mouse vertically while right clicking.
+		The height can range from -256px to 256px.</p>
+		<div class="image">
+			<table align="center">
+				<tr><td><image src="Reference/edit_heights.png"/></td></tr>
+			</table>
+			<div class="caption">
+				<table align="center">
+					<tr><td><span class="red">(1)</span> lower altitude of the current selection</td></tr>
+					<tr><td><span class="red">(2)</span> higher altitude of the current selection</td></tr>
+				</table>
+			</div>
+		</div>
+		<p>Sloped tiles : by maintaining [Shift] when the mouse is over a selected tile, move to one of the four edges so the it is highlighted in white. Move the mouse vertically while right clicking to create a sloped tile.</p>
+		<p>You can use [Ctrl+Z] to undo the last operation, or [Ctrl+Y] to redo the last undoed operation.</p>
+
+	<h3><a name="34">3.4. Setting textures</a></h3>
+		<p>Select a texture by clicking on it in the tileset on the right of the screen <span class="red">(1)</span>.
+		Click on a ground or wall part of a tile in the map to apply the selected texture.
+		You can move your mouse while left clicking to apply the texture on several tiles.
+		Maintaining [Shift] when the mouse is over a wall part allow you to apply a texture on a single tile.</p>
+		<div class="image">
+			<table align="center">
+				<tr><td><image src="Reference/edit_tiles.png"/></td></tr>
+			</table>
+			<div class="caption">
+				<table align="center">
+					<tr><td><span class="red">(1)</span> selected tile</td></tr>
+				</table>
+			</div>
+		</div>
+		<p>You can use [Ctrl+Z] to undo the last operation, or [Ctrl+Y] to redo the last undoed operation.</p>
+		
+	<h3><a name="35">3.5. Changing the tileset</a></h3>
+		<p>You have the possibility to change the tileset by clicking on the fourth button at the upper left of the screen (or [Ctrl+T]).</p>
+		<div class="image">
+			<table align="center">
+				<tr><td><image src="Reference/tileset_button.png"/></td></tr>
+			</table>
+			<div class="caption">
+				<table align="center">
+					<tr><td><span class="red">(1)</span> change tileset button</td></tr>
+				</table>
+			</div>
+		</div>
+		<p>Select the new tileset in the next window.
+		If an old tile is out of the range of the new tileset, it will be replaced by the first tile.
+		This operation cannot be undone.</p>
+		<div class="image">
+			<table align="center">
+				<tr><td><image src="Reference/change_tileset.png"/></td></tr>
+			</table>
+			<div class="caption">
+				<table align="center">
+					<tr><td><span class="red">(1)</span> selectable tilesets</td></tr>
+					<tr><td><span class="red">(2)</span> selected tileset preview</td></tr>
+					<tr><td><span class="red">(3)</span> validation button</td></tr>
+				</table>
+			</div>
+		</div>
+
+
+<h2><a name="4">4. Saving a map</a></h2>
+
+<p>Save a map by clicking on the second button at the upper left of the screen (or [Ctrl+S]).</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/save_button.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> save menu button</td></tr>
+		</table>
+	</div>
+</div>
+<p>In the case of a new map, you'll have to enter a name then click on the "Save" button in the next window.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/save_as.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> already saved maps list</td></tr>
+			<tr><td><span class="red">(2)</span> click to enter a filename</td></tr>
+			<tr><td><span class="red">(3)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+
+
+<p>In the case of an already saved map, clicking on the "save menu" button allows you to save it under a new name.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/save_menu.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> save menu button</td></tr>
+			<tr><td><span class="red">(2)</span> click here to save the map under a new name</td></tr>
+		</table>
+	</div>
+</div>
+
+
+<h2><a name="5">5. Loading an existing map</a></h2>
+
+<p>Choose a map to load by clicking on the third button at the upper left of the screen (or [Ctrl+O]).</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/load_button.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> load window button</td></tr>
+		</table>
+	</div>
+</div>
+<p>In the next window, select a filename and click on the "Load selected map" button.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/load.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> saved maps list</td></tr>
+			<tr><td><span class="red">(2)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+
+
+<h2><a name="6">6. Exporting a map</a></h2>
+
+<p>You can export the current map in a game project that use the "Layy Meta Engine" script by clicking on the fifth button at the upper left of the screen (or [Ctrl+E]).
+The map must have been saved at least once, so it is associated with an isometric data file.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/export_button.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> export window button</td></tr>
+		</table>
+	</div>
+</div>
+<p>By default, the selected project is the immediate parent project if it exists : that is the case if the Layy Meta Editor folder is pasted at the root of a project. You can select another project if you want. Click on the "Export" button to continue. <span class="red">The target game project must be closed first !</span></p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/export.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> click to select a game project</td></tr>
+			<tr><td><span class="red">(2)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+
+<ul>
+<li>in the target project, if a tileset which name matches the tileset used for the map to export doesn't exist, a new tileset with that name is automatically created, using the isometric tile for tileB.
+You can set passages, terrain tags, etc. on this tileB.
+The graphic file is copied into the "Graphics/Tilesets/" directory.
+<image src="Reference/tileset.png"/></li>
+
+<li>the isometric data file is copied into the "Data/" directory.</li>
+
+<li>all existing maps already linked to the isometric data file (via the notebox) are updated.</li>
+
+<li>if no map was updated, a new map is created, named with its saved filename by default, but you have the possibility to change that name.
+Don't change the associated tileset nor the note that links this map to the isometric data file.<br/>
+<image src="Reference/map.png"/></li>
+</ul>
+
+
+<h2><a name="7">7. Tilesets configuration</a></h2>
+
+<p>The tilesets configuration allow you to link subsets to tiles.
+This configuration is associated with the editor, so the is only one common configuration for all maps.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/tileset_config_button.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> export window button</td></tr>
+		</table>
+	</div>
+</div>
+<p>Select a tileset, then double-click on a tile to link a subset to it.</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/tileset_config.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> click to select a tileset</td></tr>
+			<tr><td><span class="red">(2)</span> double-click to link a subset to a tile</td></tr>
+			<tr><td><span class="red">(3)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+<p>There are two configurations for a tile : the subset used for ground parts and the one used for wall parts</p>
+<div class="image">
+	<table align="center">
+		<tr><td><image src="Reference/tile_config.png"/></td></tr>
+	</table>
+	<div class="caption">
+		<table align="center">
+			<tr><td><span class="red">(1)</span> switch between ground and wall configurations</td></tr>
+			<tr><td><span class="red">(2)</span> select/remove a subset</td></tr>
+			<tr><td><span class="red">(3)</span> number of patterns for animations</td></tr>
+			<tr><td><span class="red">(4)</span> how to draw autotiles when there is a difference of altitude between two consecutive tiles</td></tr>
+			<tr><td><span class="red">(5)</span> validation button</td></tr>
+		</table>
+	</div>
+</div>
+
+
+</body>
+</html>

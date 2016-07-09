@@ -1,0 +1,20 @@
+span.red  {
+	font-weight:bold;
+	color:#f00;
+}
+
+.image  {
+	width:544px;
+	font-family:Arial;
+	font-size:70%;
+	background-color:#bcd2eb;
+}
+
+table.links {
+	background-color:#ddd;
+	margin-left :80px;
+}
+
+table.links tr.subtitle td {
+	padding-left :32px;
+}
