@@ -1,0 +1,10 @@
+Graphics/Battlers/Actor4
+Graphics/Battlers/$Slime
+Graphics/Pictures/Backdrop/TestBack
+Graphics/Battlers/$Slime_MINI
+Graphics/Battlers/$Slime_down
+Graphics/Battlers/Actor4
+Graphics/Battlers/$Slime
+Graphics/Pictures/Backdrop/TestBack
+Graphics/Battlers/$Slime_MINI
+Graphics/Battlers/$Slime_MINI

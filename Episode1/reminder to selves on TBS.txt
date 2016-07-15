@@ -1,0 +1,6 @@
+1. Create blank spaces titled 'enemy#' for enemies
+2. Create blank space titled 'actor#' for MC
+3. Create blank spaces titled 'place' for allies
+4. Copy script section of Slime*2 for every new enemy troop
+5. Copy 'no_mini' note for party members
+6. Copy Slime*2 notes for every new enemy
