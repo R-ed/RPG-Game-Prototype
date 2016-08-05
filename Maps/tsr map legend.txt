@@ -17,17 +17,17 @@ Gray = Thiareike polytheism
 Dark green = Cycle of Storms
 
 Factions map:
-Purple = Ellisian Empire
-Gold = Umari Empire
+Purple = Empire of Ellis
+Gold = Umari Empire (conquered states: 1. Kingdom of Buzhe, 2. Kingdom of Sklava)
 White = Holy See
 Sky blue = Republic of Zena
 Maroon = Republic of Brixia
-Gray = Thurinian Empire
+Gray = Empire of Thurin
 Black = Kingdom of Solamut
 Red = Kingdom of Brel (part of the Dual Monarchy of Brel-Meravia)
 Blue = Kingdom of Meravia (part of the Dual Monarchy of Brel-Meravia)
 Dark blue = Kingdom of Morcarragh
-Light purple = The 'Broken Bowl': Various independent minor Native Eldathi city-states & petty principalities
+Light purple = The 'Broken Bowl' (unorganized, various independent minor Native Eldathi city-states & petty principalities)
 Forest green = Kingdom of Sylve
 Salmon = Kingdom of Slezan
 Light green = Kingdom of Dulebya
@@ -49,3 +49,28 @@ Orange = Desert (little to no vegetation present, extremely high temperatures ye
 Black line = mountain range
 Blue line = river
 Red or orange X = volcano
+
+Greater world map:
+
+Eldathi factions already described above
+
+Factions of Esdath (eastern continent):
+Yellow = Empire of Da Xia (constituent states: 1. Da Xia proper, 2. Southern Yeri still under Xian suzerainty, 3. Bunyeo, 4. Bya & former Deadlander + Ishari territories, 5. Kamrupa, 6. Lavapura, 7. Pho Bo)
+Purple = Empire of Ishar
+Dark green = Virithaya Empire
+Orange = Tendai Empire
+Light brown = Kingdom of Illam
+Gray = Boz-Kurtlar ('Gray Wolves') Horde
+Black = Qara-Qurtlar ('Black Wolves') Horde
+Off-white = Ag-Qurtlar ('White Wolves') Horde
+Olive lines = Dafcik tribes (unorganized, dwell in forests while the 'Wolves' prowl the steppes)
+Pale green = Eastern Deadlander tribes (unorganized)
+Red-orange = Di Empire
+Cyan = Yeri tribes (unorganized)
+Ice blue = Yukidaruma tribes (unorganized)
+
+Factions of Seldath (southern continent):
+Gold = Umari Empire
+Brown = Empire of Da'mot
+Dark brown = Zengi island kingdoms (unorganized)
+Orange = Jukum tribes (unorganized)

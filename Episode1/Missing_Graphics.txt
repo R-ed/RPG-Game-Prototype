@@ -8,3 +8,4 @@ Graphics/Battlers/$Slime
 Graphics/Pictures/Backdrop/TestBack
 Graphics/Battlers/$Slime_MINI
 Graphics/Battlers/$Slime_MINI
+Graphics/Battlers/$Thief_m
