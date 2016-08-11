@@ -18,7 +18,7 @@ Dark green = Cycle of Storms
 
 Factions map:
 Purple = Empire of Ellis
-Gold = Umari Empire (conquered states: 1. Kingdom of Buzhe, 2. Kingdom of Sklava)
+Gold = Umari Empire (conquered Southern Antae states: 1. Kingdom of Buzhe, 2. Kingdom of Sklava)
 White = Holy See
 Sky blue = Republic of Zena
 Maroon = Republic of Brixia
@@ -55,7 +55,7 @@ Greater world map:
 Eldathi factions already described above
 
 Factions of Esdath (eastern continent):
-Yellow = Empire of Da Xia (constituent states: 1. Da Xia proper, 2. Southern Yeri still under Xian suzerainty, 3. Bunyeo, 4. Bya & former Deadlander + Ishari territories, 5. Kamrupa, 6. Lavapura, 7. Pho Bo)
+Yellow = Empire of Da Xia (constituent or subjugated 'frontier' states: 1. Da Xia proper, 2. Southern Yeri still under Xian suzerainty, 3. Bunyeo, 4. Bya & former Deadlander + Ishari territories, 5. Kamrupa, 6. Lavapura, 7. Mua Sinh, 8. Lavi, 9. Bhayin 'mong' petty-kingdoms, 10. Vihear)
 Purple = Empire of Ishar
 Dark green = Virithaya Empire
 Orange = Tendai Empire

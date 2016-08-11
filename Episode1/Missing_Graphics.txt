@@ -9,3 +9,6 @@ Graphics/Pictures/Backdrop/TestBack
 Graphics/Battlers/$Slime_MINI
 Graphics/Battlers/$Slime_MINI
 Graphics/Battlers/$Thief_m
+Graphics/Battlers/$Thief_m
+Graphics/Battlers/$Thief_m_MINI
+Graphics/Battlers/$Thief_m_down
