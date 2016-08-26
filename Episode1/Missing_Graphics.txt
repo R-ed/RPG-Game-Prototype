@@ -12,3 +12,6 @@ Graphics/Battlers/$Thief_m
 Graphics/Battlers/$Thief_m
 Graphics/Battlers/$Thief_m_MINI
 Graphics/Battlers/$Thief_m_down
+Graphics/Battlers/$Thief_m
+Graphics/Battlers/$Thief_m_MINI
+Graphics/Battlers/$Thief_m_down
