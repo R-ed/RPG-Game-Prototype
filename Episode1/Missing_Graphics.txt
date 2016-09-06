@@ -15,3 +15,42 @@ Graphics/Battlers/$Thief_m_down
 Graphics/Battlers/$Thief_m
 Graphics/Battlers/$Thief_m_MINI
 Graphics/Battlers/$Thief_m_down
+Graphics/Battlers/$Thief_m
+Graphics/Battlers/$Thief_m
+Graphics/Battlers/$Thief_m
+Graphics/Battlers/$$Blood Eagle
+Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Blood Eagle_down
