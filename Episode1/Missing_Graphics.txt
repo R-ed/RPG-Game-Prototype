@@ -54,3 +54,9 @@ Graphics/Battlers/$Hoplite_down
 Graphics/Battlers/$Adrianos Karykes_down
 Graphics/Battlers/$Paulos Paulikianos_down
 Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/$Adrianos Karykes_down
+Graphics/Battlers/$Paulos Paulikianos_down
+Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Blood Eagle_down

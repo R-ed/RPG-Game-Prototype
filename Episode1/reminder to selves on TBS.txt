@@ -4,3 +4,6 @@
 4. Copy script section of Slime*2 for every new enemy troop
 5. Copy 'no_mini' note for party members
 6. Copy Slime*2 notes for every new enemy
+
+default enemy_weapon_range in script: Enemy_Weapon_Range = {}
+default enemy weapon range in notes: [Enemy_Weapon_Range, /^range\s*=\s*(\[\s*\d+\s*,\s*\d+\s*,\s*(true|false)\s*,\s*(true|false)\s*,\s*\d+\s*(,\s*\d+\s*,\s*\d+\s*)?\])/i],
