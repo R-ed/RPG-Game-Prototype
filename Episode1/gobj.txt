@@ -1,0 +1,369 @@
+
+-----
+Time: 2017-04-22 16:15:59 -0400
+CRITICAL OBJECT #<Battle_Cursor:0xbd74dd4>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 43:in `create_cursor'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 15:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-04-22 16:16:02 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xc060b9c>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0157 -- [GTBS] Scene_Battle, Line: 283:in `create_character'
+Script 0158 -- [GTBS] Place Actors, Line: 100:in `place_init'
+Script 0158 -- [GTBS] Place Actors, Line: 66:in `place_update'
+Script 0158 -- [GTBS] Place Actors, Line: 40:in `block in start_actor_place'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `loop'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `start_actor_place'
+Script 0157 -- [GTBS] Scene_Battle, Line: 61:in `post_start'
+Script 0100 -- Scene_Base, Line: 13:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-04-22 16:16:02 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xc0cbec4>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0157 -- [GTBS] Scene_Battle, Line: 283:in `create_character'
+Script 0158 -- [GTBS] Place Actors, Line: 100:in `place_init'
+Script 0158 -- [GTBS] Place Actors, Line: 66:in `place_update'
+Script 0158 -- [GTBS] Place Actors, Line: 40:in `block in start_actor_place'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `loop'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `start_actor_place'
+Script 0157 -- [GTBS] Scene_Battle, Line: 61:in `post_start'
+Script 0100 -- Scene_Base, Line: 13:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-04-22 16:15:59 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xbd53300>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-04-22 16:15:59 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xbd50560>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-04-22 16:15:59 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xbd4cca8>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Battle_Cursor:0xccfc7c0>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 43:in `create_cursor'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 15:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:42 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xcad1464>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0157 -- [GTBS] Scene_Battle, Line: 283:in `create_character'
+Script 0158 -- [GTBS] Place Actors, Line: 100:in `place_init'
+Script 0158 -- [GTBS] Place Actors, Line: 66:in `place_update'
+Script 0158 -- [GTBS] Place Actors, Line: 40:in `block in start_actor_place'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `loop'
+Script 0158 -- [GTBS] Place Actors, Line: 25:in `start_actor_place'
+Script 0157 -- [GTBS] Scene_Battle, Line: 61:in `post_start'
+Script 0100 -- Scene_Base, Line: 13:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf7bbc>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf74b4>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf6e10>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf676c>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf6064>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf59c0>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'
+-----
+Time: 2017-05-26 12:24:39 -0400
+CRITICAL OBJECT #<Sprite_Battler_GTBS:0xccf531c>
+In Scene Scene_Battle_TBS
+Creation Stack:: 
+Script 0211 -- [GTBS] Spriteset_Map, Line: 68:in `block in create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `each'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 66:in `create_enemies'
+Script 0211 -- [GTBS] Spriteset_Map, Line: 20:in `initialize'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `new'
+Script 0157 -- [GTBS] Scene_Battle, Line: 275:in `create_spriteset'
+Script 0157 -- [GTBS] Scene_Battle, Line: 49:in `prepare_GTBS'
+Script 0157 -- [GTBS] Scene_Battle, Line: 36:in `start'
+Script 0100 -- Scene_Base, Line: 12:in `main'
+Script 0240 -- GORR Debugger, Line: 246:in `main'
+Script 0006 -- SceneManager, Line: 23:in `run'
+Script 0252 -- Main, Line: 7:in `block in <main>'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `call'
+Script 0245 -- Acezon - F12 reset fix, Line: 48:in `block in rgss_main'
+:1:in `block in rgss_main'
+:1:in `loop'
+:1:in `rgss_main'
+Script 0245 -- Acezon - F12 reset fix, Line: 37:in `rgss_main'
+Script 0252 -- Main, Line: 7:in `<main>'
+ruby:in `eval'

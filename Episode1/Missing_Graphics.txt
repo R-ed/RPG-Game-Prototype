@@ -77,3 +77,7 @@ Graphics/Battlers/$Blood Eagle_down
 Graphics/Battlers/$Blood Eagle_down
 Graphics/Battlers/$Blood Eagle_down
 Graphics/Battlers/$Blood Eagle_down
+Graphics/Battlers/$Hoplite_down
+Graphics/Battlers/Actor4_down
+Graphics/Battlers/Actor3_down
+Graphics/Battlers/Actor4_down
