@@ -1,0 +1,4 @@
+Current major issues I can't fix myself and thus will need you to fix:
+
+1. Walls - Characters (friendly and enemy both) can still attack through walls.
+2. Skills - They aren't working correctly. Double attack skills only result in a single attack, for example.

@@ -91,3 +91,6 @@ Graphics/Battlers/$piratebrown_MINI
 Graphics/Battlers/$piratebrown_down
 Graphics/Battlers/$piratedarkred_down
 Graphics/Battlers/$piratebrown_down
+Graphics/Battlers/$BloodEagle_down
+Graphics/Battlers/$BloodEagle_down
+Graphics/Battlers/$Assassin_down
